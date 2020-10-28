@@ -1,4 +1,8 @@
 //main.cpp
+//Patrick Polcuch
+//2348668
+//CPSC350Assignment3
+
 #include "check.h"
 
 int main(int argc,char** argv){
@@ -7,7 +11,8 @@ int main(int argc,char** argv){
     return 1;
   }
   cout<<"Delimiters match"<<endl;
-  while(true){
+
+  while(true){//checks if the user wants to check another file
     cout<<"Would you like to check another file?(yes/no)"<<endl;
     string userIn = "";
     cin>>userIn;
@@ -30,6 +35,6 @@ int main(int argc,char** argv){
     cout<<"Responce not recognized, goodbye"
     break;
   }
-  
+
   return 1;
 }

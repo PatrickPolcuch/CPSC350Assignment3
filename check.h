@@ -1,5 +1,9 @@
 //check.h
-#include "GenStack.h"
+//Patrick Polcuch
+//2348668
+//CPSC350Assignment3
+
+#include "GenStack.h"//so I can use my Stack
 #include <fstream>
 
 using namespace std;
